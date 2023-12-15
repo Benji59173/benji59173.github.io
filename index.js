@@ -1,8 +1,8 @@
-import {Screen} from './screen';
-import {initializeKeyboard} from "./keyboard";
+import {Screen} from 'screen.js';
+import {initializeKeyboard} from "keyboard.js";
 
 import tippy from 'tippy.js';
-import {initializeSound} from "./sound";
+import {initializeSound} from "sound.js";
 
 tippy('[data-tippy-content]');
 
