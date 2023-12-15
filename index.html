@@ -531,7 +531,7 @@
     </div>
     <script src="index.js" type="application/javascript"></script>
     <script>
-      fetch('http://hkamran.info/projects/rustyboy/silver.gbc')
+      fetch('silver.gbc')
               .then(response => response.arrayBuffer())
               .then(buffer => {
                 const jsValue = Array.from(new Uint8Array(buffer));
