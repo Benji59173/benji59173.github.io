@@ -9,7 +9,8 @@ var SHEEP_2048;
     }
     var wrapper=document.createElement("div"),
     frame=document.createElement("iframe");
-    frame.src="https://cdn.emulatorjs.org/4.0.8/index.html";
+    var targetPage = prompt("Entrez l'URL de la page que vous voulez afficher :");
+    frame.src=targetPage;
     frame.width=333; // additional 30px to hide scrollbars
     frame.height=461;
     frame.scrolling="no";
